@@ -17,7 +17,7 @@
     "module": "esnext",
     "target": "es6",
     "paths": {
-      "@/*": ["./example/*"],
+      "@/example/*": ["./example/*"],
       "@/comps/*": ["./src/*"]
     }
   }

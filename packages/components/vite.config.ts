@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [vue(), vueTSX(), windiCSS()],
   resolve: {
     alias: {
-      '@/': path.resolve(__dirname, 'example/'),
-      '@/comps/': path.resolve(__dirname, 'src/')
+      '@/example': path.resolve(__dirname, 'example'),
+      '@/comps': path.resolve(__dirname, 'src')
     },
     extensions: ['.ts', '.tsx', '.js', '.css', '.json']
   },

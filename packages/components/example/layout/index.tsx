@@ -7,7 +7,7 @@ export default defineComponent({
   setup() {
     return () => {
       return (
-        <div class="h-full flex flex-col">
+        <div class="h-screen w-screen flex flex-col">
           <Head />
           <div class="flex-1 flex flex-row min-h-0">
             <Sidebar />
