@@ -23,3 +23,23 @@
 [主题色设置](naiveui.com/zh-CN/light/docs/customize-theme) 
 [国际化设置](naiveui.com/zh-CN/light/docs/i18n) 
 [样式设置](naiveui.com/zh-CN/light/docs/theme)
+
+#### 组件维护
+
+1. 编写组件代码
+
+2. 代码调试：
+```ts
+yarn dev:comps
+```
+
+3. 代码构建：
+```ts
+yarn build:comps
+```
+
+4. 安装组件库
+```ts
+// xxx 目标项目
+lerna add @comunion/components --scope xxx
+```
